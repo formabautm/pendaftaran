@@ -69,16 +69,8 @@
                 <input type="text" class="form-control" id="nama" aria-describedby="nama" name="nama" />
               </div>
               <div class="mb-3">
-                <label for="prodi" class="form-label">Prodi :</label>
-                <input type="text" class="form-control" id="prodi" aria-describedby="prodi" name="prodi" />
-              </div>
-              <div class="mb-3">
-                <label for="angt" class="form-label">ANGKATAN :</label>
-                <input type="text" class="form-control" id="angt" aria-describedby="angt" name="angkatan" />
-              </div>
-              <div class="mb-3">
-                <label for="alamat" class="form-label">Alamat :</label>
-                <input type="text" class="form-control" id="alamat" aria-describedby="alamat" name="alamat" />
+                <label for="prodi" class="form-label">asal  :</label>
+                <input type="text" class="form-control" id="prodi" aria-describedby="prodi" name="asal" />
               </div>
                <div class="mb-3">
                 <label for="nowa" class="form-label">No Whatsapp :</label>
@@ -127,6 +119,7 @@
               btnLoading.classList.toggle('d-none');
               btnKirim.classList.toggle('d-none');
               btnAlert.classList.toggle('d-none');
+              window.location.href = 'https://chat.whatsapp.com/FnTDnQ3ba1u7DXPutFqJzR';
               form.reset();
               console.log('Success!', response)})
             .catch(error => console.error('Error!', error.message))
